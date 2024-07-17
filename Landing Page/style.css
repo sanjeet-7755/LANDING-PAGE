@@ -1,0 +1,116 @@
+/* Basic CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: hsl(346deg 17% 70%);
+  display: flex;
+}
+
+#part1 {
+  height: 100%;
+  width: 26%;
+  background-color: rgb(128, 80, 93);
+}
+
+#part2 {
+  height: 100%;
+  width: 67%;
+  background-image: url(/images/jimmy-fermin-bqe0J0b26RQ-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(191, 166, 173, 0.272);
+}
+
+#part3 {
+  height: 100%;
+  width: 7%;
+  background-color: rgb(128, 80, 93);
+}
+
+#text-div {
+  /* height: 300px; */
+  position: absolute;
+  width: 400px;
+  /* background-color: red; */
+  left: 7%;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+#text-div > h1 {
+  font-size: 95px;
+  font-family: "Monument Extended", sans-serif;
+  font-weight: normal;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 78px;
+  letter-spacing: 8px;
+  color: #fff;
+}
+
+#small-img {
+  position: absolute;
+  height: 400px;
+  width: 300px;
+  background-image: url(/images/ian-dooley-TT-ROxWj9nA-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  top: 30%;
+  right: 5%;
+}
+
+#vertical-text {
+  position: absolute;
+  transform: rotate(90deg);
+  right: -51%;
+  top: -5%;
+  transform-origin: 0% 0%;
+}
+
+#vertical-text > h1 {
+  font-size: 70px;
+  font-weight: 900;
+  color: transparent;
+  font-family: "Monument Extended", sans-serif;
+  text-transform: uppercase;
+  -webkit-text-stroke: 2px white;
+  letter-spacing: 15px;
+}
+
+#nav {
+  width: 450px;
+  top: 5%;
+  left: 7%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#nav img {
+  height: 100px;
+}
+
+#nav > h5 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  color: #fff;
+}
